@@ -1,42 +1,35 @@
+# Integrating external CDS services into the EMR with CDS Hooks
+
+**Documentation** 
+- https://cds-hooks.org/
+- https://cds-hooks.hl7.org/
+
+**Slides**
+- https://github.com/uw-fhir/cds-hooks-presentation/blob/master/Remote%20Decision%20Support%20with%20CDS%20Hooks.pptx
+
+**Tutorial**
+- (Slides)https://github.com/uw-fhir/cds-hooks-presentation/blob/master/Lets%20Build%20CDS%20Hooks%20Services.pptx
+- https://github.com/uw-fhir/cds-services-tutorial
+
 # Data Pipelines with FHIR
 
-This tutorial provides a quick intro to the
-
-
-in the context of a contrived population/public Health data analysis scenario analyzing flu vaccinations. 
-
-## Resources
-
-1. http://hl7.org/fhir/uv/bulkdata/export/index.html
-2. https://www.hl7.org/fhir/async.html
-3. https://smilecdr.com/docs/bulk/fhir_bulk_export.html
-4. https://docs.google.com/presentation/d/14ZHmam9hwz6-SsCG1YqUIQnJ56bvSqEatebltgEVR6c/edit#slide=id.g8c17644f87_23_919
-5. https://github.com/dcinformatics/cds-hooks-presentation/blob/master/Remote%20Decision%20Support%20with%20CDS%20Hooks.pptx
-
-## CDS Hooks Tutorial
-- Breeze through slides at https://github.com/uw-fhir/cds-hooks-presentation
-- Look through CDS Hooks website
-- Run through CDS Hooks Tutorial
-- Highlight excercises
-
-## Introduction to Pipelines
-(look for slides)
-- Intro to transactional vs. async
-- Highlight OLAP vs. w/e, transactional vs. asynchronous 
-- Highlight different reqs for each 
+This set of tutorials aims to provide a quick introduction the use of FHIR to enable analytics, reporting, and attaching 
+FHIR endpoints to data pipelines.  
 
 ## FHIR Bulk Data Access (Flat FHIR)
 
-https://hl7.org/fhir/uv/bulkdata/
-https://hl7.org/fhir/uv/bulkdata/export/index.html
-http://hl7.org/fhir/async.html
+**Documentation**
+- https://hl7.org/fhir/uv/bulkdata/
+- https://hl7.org/fhir/uv/bulkdata/export/index.html
+- http://hl7.org/fhir/async.html
 
-- Modified Bulk FHIR Slides
+**Slides**
+- https://docs.google.com/presentation/d/14ZHmam9hwz6-SsCG1YqUIQnJ56bvSqEatebltgEVR6c/edit#slide=id.g8c17644f87_23_919
 
+**Jupyter Notebook Tutorial**
+- https://github.com/uw-fhir/bulk-fhir-tutorial/blob/master/bulk-fhir-tutorial.ipynb
 
-- Bulk FHIR tutorial
-
-### Demo: Creating a FHIR-enabled open-source EMR
+## Creating a FHIR-enabled EMR data pipeline
 
 ## Accessing data at the source
 For the purpose of this demo, we'll be using OpenMRS - a widely-used open-source EMR - as our source of point-of-care clinical information. 
@@ -87,3 +80,10 @@ Extraction of Patient Data
   
 Current application:
 Shared Health Record based on the Internation Patient Profile for the Haitian Health System
+
+
+## Resource List
+1. http://hl7.org/fhir/uv/bulkdata/export/index.html
+2. https://www.hl7.org/fhir/async.html
+3. https://smilecdr.com/docs/bulk/fhir_bulk_export.html
+4. https://docs.google.com/presentation/d/14ZHmam9hwz6-SsCG1YqUIQnJ56bvSqEatebltgEVR6c/edit#slide=id.g8c17644f87_23_919
