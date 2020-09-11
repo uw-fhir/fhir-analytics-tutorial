@@ -49,11 +49,15 @@ We're going to be using the new FHIR module that's currently under development. 
 
 Then, download the following file and add it to the same directory: https://www.dropbox.com/s/v79lxvsm8oqg3kh/fhir2-1.0.0-SNAPSHOT.omod?dl=1
 
-
 ---
 
 ### Step Two - Synchronizing data with the target
    
+(TODO: Elaborate)
+Then, follow the instructions here to set up the rest of the dependencies:
+
+https://github.com/GoogleCloudPlatform/openmrs-fhir-analytics
+
 Extraction of Patient Data
 1. Streaming
     - Live updates to a live feed of resources that need to be uploaded
