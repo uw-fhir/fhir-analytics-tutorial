@@ -27,7 +27,7 @@ FHIR endpoints to data pipelines.
 - https://docs.google.com/presentation/d/14ZHmam9hwz6-SsCG1YqUIQnJ56bvSqEatebltgEVR6c/edit#slide=id.g8c17644f87_23_919
 
 **Jupyter Notebook Tutorial**
-- https://github.com/uw-fhir/bulk-fhir-tutorial/blob/master/bulk-fhir-tutorial.ipynb
+- https://github.com/uw-fhir/fhir-analytics-tutorial/blob/master/bulk-fhir-tutorial.ipynb
 
 ## Creating a FHIR-enabled EMR data pipeline
 
